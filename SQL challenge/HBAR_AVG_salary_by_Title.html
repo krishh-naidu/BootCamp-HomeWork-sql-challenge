@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="da8e2742-2933-410c-95c0-ecc940de0ccf" data-root-id="1853"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2093">
+          {"e242319d-62d2-4022-921a-71832dc2c78e":{"roots":{"references":[{"attributes":{"below":[{"id":"1864"}],"center":[{"id":"1867"},{"id":"1870"},{"id":"1901"}],"left":[{"id":"1868"}],"plot_height":400,"plot_width":1000,"renderers":[{"id":"1891"}],"title":{"id":"1854"},"toolbar":{"id":"1878"},"x_range":{"id":"1856"},"x_scale":{"id":"1860"},"y_range":{"id":"1858"},"y_scale":{"id":"1862"}},"id":"1853","subtype":"Figure","type":"Plot"},{"attributes":{"index":2,"label":{"value":"Manager"},"renderers":[{"id":"1891"}]},"id":"1904","type":"LegendItem"},{"attributes":{"index":0,"label":{"value":"Senior Staff"},"renderers":[{"id":"1891"}]},"id":"1906","type":"LegendItem"},{"attributes":{"formatter":{"id":"1896"},"ticker":{"id":"1869"}},"id":"1868","type":"CategoricalAxis"},{"attributes":{"index":4,"label":{"value":"Assistant Engineer"},"renderers":[{"id":"1891"}]},"id":"1902","type":"LegendItem"},{"attributes":{"axis":{"id":"1868"},"dimension":1,"ticker":null},"id":"1870","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"titles","transform":{"id":"1887"}},"height":{"value":0.4},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"field":"avg_salary"},"y":{"field":"titles"}},"id":"1890","type":"HBar"},{"attributes":{},"id":"1860","type":"LinearScale"},{"attributes":{"index":5,"label":{"value":"Engineer"},"renderers":[{"id":"1891"}]},"id":"1903","type":"LegendItem"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1877","type":"BoxAnnotation"},{"attributes":{"index":6,"label":{"value":"Senior Engineer"},"renderers":[{"id":"1891"}]},"id":"1905","type":"LegendItem"},{"attributes":{},"id":"1862","type":"CategoricalScale"},{"attributes":{},"id":"1869","type":"CategoricalTicker"},{"attributes":{"callback":null,"tooltips":"\n    &lt;div&gt;\n        &lt;h3&gt;@avg_salary1&lt;/h3&gt;\n    &lt;/div&gt;\n"},"id":"1885","type":"HoverTool"},{"attributes":{"index":3,"label":{"value":"Technique Leader"},"renderers":[{"id":"1891"}]},"id":"1908","type":"LegendItem"},{"attributes":{"data_source":{"id":"1852"},"glyph":{"id":"1889"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1890"},"selection_glyph":null,"view":{"id":"1892"}},"id":"1891","type":"GlyphRenderer"},{"attributes":{},"id":"1865","type":"BasicTicker"},{"attributes":{"axis_label":"Average Salary By Title","formatter":{"id":"1894"},"ticker":{"id":"1865"}},"id":"1864","type":"LinearAxis"},{"attributes":{},"id":"1876","type":"HelpTool"},{"attributes":{},"id":"1899","type":"UnionRenderers"},{"attributes":{"axis":{"id":"1864"},"ticker":null},"id":"1867","type":"Grid"},{"attributes":{},"id":"1900","type":"Selection"},{"attributes":{},"id":"1871","type":"PanTool"},{"attributes":{"items":[{"id":"1902"},{"id":"1903"},{"id":"1904"},{"id":"1905"},{"id":"1906"},{"id":"1907"},{"id":"1908"}]},"id":"1901","type":"Legend"},{"attributes":{"factors":["Senior Staff","Staff","Manager","Technique Leader","Assistant Engineer","Engineer","Senior Engineer"]},"id":"1858","type":"FactorRange"},{"attributes":{"text":"Average Salary by Titles"},"id":"1854","type":"Title"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1871"},{"id":"1872"},{"id":"1873"},{"id":"1874"},{"id":"1875"},{"id":"1876"},{"id":"1885"}]},"id":"1878","type":"Toolbar"},{"attributes":{},"id":"1872","type":"WheelZoomTool"},{"attributes":{},"id":"1896","type":"CategoricalTickFormatter"},{"attributes":{"data":{"avg_salary":{"__ndarray__":"OUvLhsWW7EClVk9ALIzsQFVVVVVhKelAAejIrNy450CVBv7mjbbnQFucs8TqsudArkSLmFmv50A=","dtype":"float64","order":"little","shape":[7]},"avg_salary1":["$58,550.17","$58,465.38","$51,531.04","$48,582.90","$48,564.43","$48,535.34","$48,506.80"],"index":[4,5,2,6,0,1,3],"titles":["Senior Staff","Staff","Manager","Technique Leader","Assistant Engineer","Engineer","Senior Engineer"]},"selected":{"id":"1900"},"selection_policy":{"id":"1899"}},"id":"1852","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"titles","transform":{"id":"1887"}},"height":{"value":0.4},"line_color":{"value":"#1f77b4"},"right":{"field":"avg_salary"},"y":{"field":"titles"}},"id":"1889","type":"HBar"},{"attributes":{"overlay":{"id":"1877"}},"id":"1873","type":"BoxZoomTool"},{"attributes":{},"id":"1856","type":"DataRange1d"},{"attributes":{},"id":"1874","type":"SaveTool"},{"attributes":{"factors":["Senior Staff","Staff","Manager","Technique Leader","Assistant Engineer","Engineer","Senior Engineer"],"palette":["#084594","#2171b5","#4292c6","#6baed6","#9ecae1","#c6dbef","#deebf7","#f7fbff"]},"id":"1887","type":"CategoricalColorMapper"},{"attributes":{},"id":"1875","type":"ResetTool"},{"attributes":{"source":{"id":"1852"}},"id":"1892","type":"CDSView"},{"attributes":{"index":1,"label":{"value":"Staff"},"renderers":[{"id":"1891"}]},"id":"1907","type":"LegendItem"},{"attributes":{},"id":"1894","type":"BasicTickFormatter"}],"root_ids":["1853"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2093').textContent;
+                  var render_items = [{"docid":"e242319d-62d2-4022-921a-71832dc2c78e","root_ids":["1853"],"roots":{"1853":"da8e2742-2933-410c-95c0-ecc940de0ccf"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

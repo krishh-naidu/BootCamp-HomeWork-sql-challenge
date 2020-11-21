@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="e519e5cb-fbda-4a58-b3de-76c7fb7ae8b3" data-root-id="1399"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1607">
+          {"b837e009-84eb-4f06-b1b0-288fa81dc7a3":{"roots":{"references":[{"attributes":{"below":[{"id":"1410"}],"center":[{"id":"1412"},{"id":"1416"}],"left":[{"id":"1413"}],"plot_height":400,"plot_width":800,"renderers":[{"id":"1437"}],"title":{"id":"1400"},"toolbar":{"id":"1424"},"x_range":{"id":"1402"},"x_scale":{"id":"1406"},"y_range":{"id":"1404"},"y_scale":{"id":"1408"}},"id":"1399","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1406","type":"CategoricalScale"},{"attributes":{},"id":"1404","type":"DataRange1d"},{"attributes":{},"id":"1456","type":"CategoricalTickFormatter"},{"attributes":{"formatter":{"id":"1458"},"ticker":{"id":"1414"}},"id":"1413","type":"LinearAxis"},{"attributes":{},"id":"1414","type":"BasicTicker"},{"attributes":{"axis_label":"Titles","formatter":{"id":"1456"},"ticker":{"id":"1411"}},"id":"1410","type":"CategoricalAxis"},{"attributes":{"axis":{"id":"1410"},"ticker":null},"id":"1412","type":"Grid"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1423","type":"BoxAnnotation"},{"attributes":{},"id":"1408","type":"LinearScale"},{"attributes":{},"id":"1411","type":"CategoricalTicker"},{"attributes":{},"id":"1462","type":"Selection"},{"attributes":{},"id":"1417","type":"PanTool"},{"attributes":{"data_source":{"id":"1398"},"glyph":{"id":"1435"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1436"},"selection_glyph":null,"view":{"id":"1438"}},"id":"1437","type":"GlyphRenderer"},{"attributes":{"text":"Average Salary by Titles"},"id":"1400","type":"Title"},{"attributes":{},"id":"1461","type":"UnionRenderers"},{"attributes":{"axis":{"id":"1413"},"dimension":1,"ticker":null},"id":"1416","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1417"},{"id":"1418"},{"id":"1419"},{"id":"1420"},{"id":"1421"},{"id":"1422"},{"id":"1431"}]},"id":"1424","type":"Toolbar"},{"attributes":{"factors":["$58,550.17","$58,465.38","$51,531.04","$48,582.90","$48,564.43","$48,535.34","$48,506.80"],"palette":["#084594","#2171b5","#4292c6","#6baed6","#9ecae1","#c6dbef","#deebf7","#f7fbff"]},"id":"1433","type":"CategoricalColorMapper"},{"attributes":{},"id":"1418","type":"WheelZoomTool"},{"attributes":{},"id":"1422","type":"HelpTool"},{"attributes":{"overlay":{"id":"1423"}},"id":"1419","type":"BoxZoomTool"},{"attributes":{"callback":null,"tooltips":"\n    &lt;div&gt;\n        &lt;h3&gt;@avg_salary1&lt;/h3&gt;\n    &lt;/div&gt;\n"},"id":"1431","type":"HoverTool"},{"attributes":{},"id":"1420","type":"SaveTool"},{"attributes":{"data":{"avg_salary":{"__ndarray__":"OUvLhsWW7EClVk9ALIzsQFVVVVVhKelAAejIrNy450CVBv7mjbbnQFucs8TqsudArkSLmFmv50A=","dtype":"float64","order":"little","shape":[7]},"avg_salary1":["$58,550.17","$58,465.38","$51,531.04","$48,582.90","$48,564.43","$48,535.34","$48,506.80"],"index":[4,5,2,6,0,1,3],"titles":["Senior Staff","Staff","Manager","Technique Leader","Assistant Engineer","Engineer","Senior Engineer"]},"selected":{"id":"1462"},"selection_policy":{"id":"1461"}},"id":"1398","type":"ColumnDataSource"},{"attributes":{},"id":"1421","type":"ResetTool"},{"attributes":{"source":{"id":"1398"}},"id":"1438","type":"CDSView"},{"attributes":{"factors":["Senior Staff","Staff","Manager","Technique Leader","Assistant Engineer","Engineer","Senior Engineer"]},"id":"1402","type":"FactorRange"},{"attributes":{},"id":"1458","type":"BasicTickFormatter"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"avg_salary1","transform":{"id":"1433"}},"line_color":{"value":"#1f77b4"},"top":{"field":"avg_salary"},"width":{"value":0.5},"x":{"field":"titles"}},"id":"1435","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"avg_salary1","transform":{"id":"1433"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"avg_salary"},"width":{"value":0.5},"x":{"field":"titles"}},"id":"1436","type":"VBar"}],"root_ids":["1399"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1607').textContent;
+                  var render_items = [{"docid":"b837e009-84eb-4f06-b1b0-288fa81dc7a3","root_ids":["1399"],"roots":{"1399":"e519e5cb-fbda-4a58-b3de-76c7fb7ae8b3"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
